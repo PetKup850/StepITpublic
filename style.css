@@ -1,9 +1,14 @@
+p {
+  text-decoration: underline;
+}
 table {
-  border: 2px solid black;
+  border: 1px double green;
+}
+td,
+th {
+  text-align: left;
+  border: 1px solid black;
 }
 td {
-  border: 1px solid blue;
-}
-p {
-  font-weight: bold;
+  text-align: center;
 }
