@@ -1,66 +1,25 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="main.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Business Card</title>
   </head>
   <body>
-    <p>Seznam seriálů</p>
-    <ul>
-      <li>MacGyver</li>
-      <li>Hvězdná brána</li>
-      <li>Živý mrtví</li>
-    </ul>
-    <picture>
-      <img src="MCG.jpg" alt="MacGyver" />
-    </picture>
-    <p>Seznam jídel</p>
-    <ol start="1">
-      <li>Svíčková (dobrá)</li>
-      <li>Smažené nudle</li>
-      <li>Ramen</li>
-    </ol>
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube-nocookie.com/embed/bKYd1AeFWJ0?si=ZvXJj8gkjua8l-cz"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen
-    ></iframe>
-    <p>????</p>
-    <table>
-      <thead>
-        <th></th>
-        <th>Pondělí</th>
-        <th>Úterý</th>
-        <th>Středa</th>
-      </thead>
-      <tbody>
-        <tr>
-          <th>jméno 1</th>
-          <td>chyběl</td>
-          <td>přítomen</td>
-          <td>N/A</td>
-        </tr>
-        <tr>
-          <th>jméno 2</th>
-          <td>přítomen</td>
-          <td>N/A</td>
-          <td>přítomen</td>
-        </tr>
-        <tr>
-          <th>jméno 3</th>
-          <td colspan="2">přítomen</td>
-          <td>přítomen</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="card">
+      <div class="header">
+        <h1>Jméno Příjmení</h1>
+        <picture>
+          <img src="logo2.png" alt="logo firmy" class="logo" />
+        </picture>
+      </div>
+      <div class="content">
+        <p>Pozice</p>
+        <p>Firma</p>
+        <p>Telefon: +420 123 456 789</p>
+        <p>Email: email@firma.cz</p>
+      </div>
+    </div>
   </body>
 </html>
